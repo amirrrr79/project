@@ -1,0 +1,36 @@
+.imageAsia{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),  url('/public/image/img17.jpg');
+    background-size:cover;
+    height: 600px;
+    position: relative;
+}
+
+.titleTour{
+    position: absolute;
+    bottom:55%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+}
+.titleTour span{
+    color: rgb(243, 243, 243);
+    font-size: 1.7rem;
+    border-bottom: 2px solid white;
+}
+
+@media screen and (min-width:768px) {
+    .titleTour{
+        position: absolute;
+        bottom:35%;
+        left: 50%;
+        transform: translate(-50% , 50%);
+    }
+    .titleTour span{
+        color: rgb(243, 243, 243);
+        font-size: 1.7rem;
+        border-bottom: 2px solid white;
+    }
+}
+
+
+
+

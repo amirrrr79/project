@@ -1,0 +1,46 @@
+ .carousel .active{
+    border-bottom: none;
+ }
+ 
+ .mobile{
+ padding: 1%;
+}
+.mobile .carousel{
+   margin: auto;
+   width: 22rem;
+}
+.mobile .carousel .card{
+    margin: auto;
+ }
+.mobile .carousel .card .card-title{
+    color: #0092C8;
+}
+.mobile .carousel .card .card-text{
+    font-size: .95rem;
+}
+ .desktop{
+   display: none;
+}
+
+@media screen  and (min-width:850px){
+    .mobile{
+        display: none;
+    }
+    
+    .desktop {
+        display: block;
+        width: 800px;
+        height: 360px;
+        margin: auto;
+    }
+    
+    .carousel .card{
+        max-width: 900px;
+        height:360px;
+        border-radius:1rem;
+    }
+    .carousel .card .card-title{
+        color: #0092C8;
+    }
+}
+

@@ -1,0 +1,34 @@
+
+@font-face {
+        font-family: "vazir";
+        src: url("fonts/vazir/Vazir-Medium-FD-WOL.eot") format("woff2"),
+            url("fonts/vazir/Vazir-Medium-FD-WOL.woff") format("woff"),
+            url("fonts/vazir/Vazir-Medium-FD-WOL.ttf") format("truetype");
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "vazir"!important;
+    background-color: #f3f3f3!important;
+    direction: rtl;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+
+}
+
+

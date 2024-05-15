@@ -1,0 +1,5 @@
+.imageIran{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),  url('/public/image/img21.jpg');
+    height: 600px;
+    position: relative;
+}
